@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Day</title>
+    <meta name="'description" content="Hair Day is a boutique hair salon that specializes in cut, color and styling. Hair Day also offers makeup and nail services" >
+    <meta name="'author" content="Hair Day Saloon">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <img src="./images/main-logo.png" alt="Hair Day Saloon Logo" class="logo" >
+    </header>
+    <!-- end of header -->
+
+    <!-- navigation -->
+    <nav>
+        <ul>
+            <a href="#"><li >Home</li></a>
+            <a href="#services"><li>Services</li></a>
+           <a href="#about"> <li>About</li></a>
+            <a href="#book"><li>Book Now</li></a>
+        </ul>
+    </nav>
+<!-- end of navigation -->
+
+    <!-- main  -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="promotion">
+                <img src="./images/makeup.jpg" alt="Promotion Image" >
+                <div class="promotion-text">
+                    <h2 class= 'promo-text'>Black Friday</h2>
+                    <p class= 'sub-promo'>Get up 80% discount off Makeup Services </p> 
+                    <a href="#book"><button>Book Now</button></a>
+                </div>
+               
+        </section>
+        <!-- end of hero section -->
+      <div class="main">
+         <!-- Services -->
+      <div id="services">
+        <h3 class="sub-heading">Our Services</h3>
+        <div class="our-services" >
+          <section class="service">
+              <article>
+                  <img src="./images/haircut.jpg" alt="Hair Cut" >
+                  <h3>Cut, Color and Styling</h3>
+                  <p>Get a amazing, trendy hair cuts with dynamic colors and styles </p>
+              </article>
+          </section>
+          <section class="service">
+              <article>
+                  <img src="./images/make.jpg" alt="Makeup" >
+                  <h3>Trendy Makeup Looks </h3>
+                  <p>For your weddings, parties, and any professional look</p>
+              </article>
+          </section>
+          <section class="service">
+              <article>
+                  <img src="./images/nail.jpg" alt="Nails" >
+                  <h3>Trendy Nail Designs</h3>
+                  <p>We've got the best nail designs with a professional touch</p>
+              </article>
+          </section>
+        </div>
+      </div>
+    <!-- end of services -->
+
+      <!-- About-->
+      <div class="about" id="about">
+        <h3 >Who We Are</h3>
+        <p>Hair Day is a boutique hair salon that specializes in cut, color and styling. We also offers makeup and nail services, prides itself on its warm and relaxing atmosphere and is best known for edgy hair colors and on-trend cuts</p>
+      </div>
+    <!-- end of About -->
+
+      <!-- Team -->
+      <div class="team" >
+        <h3  >Our Team</h3>
+        <p>Meet our amazing and professional team of stylists and beauticians</p>
+       <div id="team-cards">
+        <div class="team-card" >
+            <img src="./images/Pria.jpg" alt="'Pria" >
+            <h4>Pria Wilson</h4>
+            <p>CEO</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/Garry.jpg" alt="Garry" >
+            <h4>Garry Dove</h4>
+            <p>Hair Dresser</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/stylist-1.jpg" alt="Anthony" >
+            <h4>Anthony James</h4>
+            <p>Stylist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/stylist-2.jpg" alt="Adam" >
+            <h4>Adam Smith</h4>
+            <p>Stylist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/manicure.jpg" alt="Portia" >
+            <h4>Portia Evans</h4>
+            <p>Manicurist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/colorist-1.jpg" alt="Meagan" >
+            <h4>Meagan James</h4>
+            <p>Colorist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/colorist-2.jpg" alt="Kim" >
+            <h4>Kim Kate</h4>
+            <p>Colorist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/colorist-3.jpg" alt="Eben" >
+            <h4>Eben Smith</h4>
+            <p>Colorist</p>
+        </div>
+        <div class="team-card">
+            <img src="./images/makeup-artist.jpg" alt="James" >
+            <h4>James Brown</h4>
+            <p>Makeup Artist</p>
+        </div>
+       </div>
+      </div>
+      </div>
+    <!-- end of team -->
+
+      <!-- Book Appointment -->
+          <div class="form" id="book">
+            <h3 class="sub-heading">Book an Appointment</h3>
+            <form action="index.html" method="post">
+              <div class="form-details">
+                <fieldset>
+                    <legend><span class="number">1</span>Your basic details</legend>
+                  <div class="fieldset">
+                   <div>
+                    <label for="name">Name*:</label>
+                    <input type="text" id="name" name="user_name" placeholder="Phoebe Brown" required pattern="[a-zA-Z0-9]+">
+                   </div>
+            
+                 <div>
+                    <label for="mail">Email*:</label>
+                    <input type="email" id="mail" name="user_email" placeholder="phoebebrown@xyz.com" required>
+                 </div>
+            
+                 <div>
+                    <label for="tel">Contact Num*:</label>
+                    <input type="tel" id="tel" placeholder="Include country code" name="user_num" required>
+                 </div>
+            
+                    <div>
+                        <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" placeholder="Accra">
+                    </div>
+                  </div>
+                  </fieldset>
+                  <div id="divider"></div>
+                  <fieldset class="divider">
+                    <legend><span class="number">2</span>Appointment Details</legend>
+                  <div class="fieldset">
+                  <div  >
+                    <label for="appointment_for">Appointment for*:</label>
+                    <select id="appointment_for" name="appointment_for" required>
+                      <option value="Cut">Cut</option>
+                      <option value="Coloring">Coloring</option>
+                      <option value="Styling">Styling</option>
+                      <option value="Makeup">Makeup</option>
+                      <option value="Nails">Nails</option>
+                    
+                    </select>
+                  </div>
+                   <div>
+                    <label for="appointment_note">Appointment Note:</label>
+                    <textarea id="appointment_note" name="appointment_note" placeholder="I wish to get an appointment for a full beauty makeover"></textarea>
+                   </div>
+                   <div>
+                    <label for="date">Date*:</label>
+                    <input type="date" name="date" value="" required></input>
+                   </div>
+                   <div>
+                    <label for="time">Time*:</label>
+                    <input type="time" name="time" value="" required></input>
+                   </div>
+             
+                  </div>
+                  </fieldset>
+              </div>
+                  <button type="submit">Request For Appointment</button>
+             </form>
+          </div>
+        <!-- end of book appointment -->
+
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <img src="./images/footer-logo.png" alt="small logo">
+        </div>
+        <div class="footer copyright">
+            <p>&copy All Rights Reversed</p>
+        </div>
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>
